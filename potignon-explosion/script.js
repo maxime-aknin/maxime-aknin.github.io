@@ -13,7 +13,7 @@ var Dot = function () {
   this.y = 0;
   this.node = function () {
     var n = document.createElement("img");
-    n.src = "https://scontent.flyn1-1.fna.fbcdn.net/v/t1.15752-9/p100x100/242362151_394749022061770_1708197024486641754_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=58c789&_nc_ohc=5P1Qplu5NMMAX9gqV4a&_nc_ht=scontent.flyn1-1.fna&oh=e99d886b2b66b1209b334205f4dd220e&oe=617A963B";
+    n.src = "potignon-explosion.jpg";
     n.className = "trail";
     document.body.appendChild(n);
     return n;
