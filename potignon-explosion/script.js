@@ -13,7 +13,7 @@ var Dot = function () {
   this.y = 0;
   this.node = function () {
     var n = document.createElement("img");
-    n.src = "potignon-explosion.jpg";
+    n.src = "potignon.jpg";
     n.className = "trail";
     document.body.appendChild(n);
     return n;
